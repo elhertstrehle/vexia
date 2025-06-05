@@ -1,0 +1,188 @@
+[
+  {
+    "tema": "acao_atacar",
+    "descricao": "Durante sua ativação, um herói pode usar uma ou ambas as ações para atacar, desde que possua uma arma ou habilidade que permita. Ataques seguem uma sequência clara de passos.",
+    "excecoes": "- Um herói ferido ainda pode atacar, mas algumas cartas de Classe podem restringir essa ação.\n- Efeitos de condição como 'Stunned' podem impedir ataques até serem removidos.",
+    "exemplos": "- Fenn Signis pode gastar duas ações para atacar dois inimigos diferentes.\n- Gaarkhan pode mover-se e depois atacar com sua lâmina vibro se estiver adjacente ao inimigo.",
+    "origem": "Learn to Play, pág. 8"
+  },
+  {
+    "tema": "movimento",
+    "descricao": "O movimento permite a uma figura se deslocar pelo mapa um número de espaços igual à sua velocidade. Pode ser interrompido por outras ações e é afetado por terrenos e figuras no caminho.",
+    "excecoes": "- Uma figura não pode terminar seu movimento em um espaço ocupado por outra figura.\n- Terreno difícil custa um ponto de movimento adicional por espaço.\n- Figuras grandes podem rotacionar, mas isso também consome pontos de movimento.",
+    "exemplos": "- Jyn Odan se move 5 espaços, para ao lado de uma porta, interage com ela e continua movendo.\n- Diala Passil atravessa terreno difícil, gastando 2 pontos de movimento para avançar 1 espaço.",
+    "origem": "Learn to Play, pág. 6"
+  },
+  {
+    "tema": "linha_visao",
+    "descricao": "Para atacar, uma figura deve ter linha de visão válida até seu alvo. Isso exige traçar duas linhas retas e desobstruídas de um canto de seu espaço até dois cantos distintos do espaço do alvo.",
+    "excecoes": "- Paredes e terreno bloqueador impedem totalmente a linha de visão.\n- Outras figuras não bloqueiam linha de visão, mas podem afetar o ataque com cartas específicas.",
+    "exemplos": "- Um stormtrooper ataca Diala porque consegue traçar duas linhas limpas até os cantos dela.\n- Um droid não pode atacar Fenn pois há uma parede impedindo qualquer linha direta.",
+    "origem": "Learn to Play, pág. 10"
+  },
+  {
+    "tema": "precisao",
+    "descricao": "Ataques à distância requerem precisão, que é a soma dos números de precisão rolados nos dados de ataque. O valor final deve ser igual ou maior à quantidade de espaços até o alvo para que o ataque acerte.",
+    "excecoes": "- Ataques corpo a corpo não requerem precisão.\n- Algumas armas ou cartas modificam o valor de precisão final após o rolamento.",
+    "exemplos": "- Um ataque com resultado de precisão 4 pode atingir um inimigo a até 4 espaços de distância.\n- Se o alvo está a 5 espaços e o ataque gera precisão 3, o ataque falha mesmo que causasse dano.",
+    "origem": "Learn to Play, pág. 10"
+  },
+  {
+    "tema": "acao_descansar",
+    "descricao": "Durante sua ativação, uma figura pode realizar a ação 'Descansar' para recuperar pontos de vida e tensão. O herói primeiro remove uma quantidade de tensão igual ao seu valor de resistência. Para cada ponto de resistência não utilizado para remover tensão (porque não havia mais marcadores), ele recupera 1 ponto de vida.",
+    "excecoes": [
+      "Figuras feridas ainda podem descansar normalmente.",
+      "Se não houver tensão, o herói recupera apenas vida com base na resistência.",
+      "Algumas condições (como 'Stunned') podem impedir a ação até serem removidas.",
+      "Ação de descansar não pode ser realizada fora da ativação da figura."
+    ],
+    "exemplos": [
+      "Diala tem 3 de tensão e 2 de dano. Ao descansar com resistência 4, remove os 3 de tensão e recupera 1 de vida.",
+      "Fenn sem tensão e com resistência 3 recupera diretamente 3 pontos de vida ao descansar.",
+      "Mak tem resistência 2, 1 ponto de tensão e 3 de dano. Ele remove 1 de tensão e recupera 1 de vida."
+    ],
+    "origem": "Learn to Play, pág. 10"
+  },
+  {
+    "tema": "tensao",
+    "descricao": "Tensão representa o esforço mental ou físico exigido de uma figura. É marcada com fichas de tensão e é limitada pelo valor de resistência do herói.",
+    "excecoes": [
+      "Se uma figura sofrer mais tensão do que sua resistência permite, o excesso é convertido em dano.",
+      "Algumas habilidades ou cartas causam ou removem tensão diretamente.",
+      "A tensão não impede ações diretamente, mas pode acumular até causar dano."
+    ],
+    "exemplos": [
+      "Um herói com resistência 4 pode ter até 4 de tensão. Ao tentar receber 2 de tensão adicionais estando com 3, ele sofre 1 de dano.",
+      "Mover-se além da velocidade causa 1 de tensão por espaço adicional.",
+      "Algumas cartas exigem pagar tensão para serem ativadas."
+    ],
+    "origem": "Learn to Play, pág. 12"
+  },
+  {
+    "tema": "resistencia",
+    "descricao": "A resistência representa o quanto de tensão um herói pode suportar. Também define a capacidade de recuperação ao descansar.",
+    "excecoes": [
+      "A resistência varia entre heróis.",
+      "Não se aplica a figuras imperiais.",
+      "Algumas cartas aumentam ou reduzem a resistência."
+    ],
+    "exemplos": [
+      "Mak tem resistência 3, ou seja, pode ter até 3 de tensão antes de começar a sofrer dano.",
+      "Durante um descanso, um herói usa seu valor de resistência para remover tensão e/ou curar dano."
+    ],
+    "origem": "Learn to Play, pág. 6"
+  },
+  {
+    "tema": "dano",
+    "descricao": "Dano representa o desgaste físico sofrido por uma figura. É indicado com fichas sobre sua carta.",
+    "excecoes": [
+      "Quando o dano atinge a vida máxima de um herói, ele se torna ferido.",
+      "Algumas figuras são derrotadas diretamente ao atingir a vida máxima.",
+      "Algumas cartas ou habilidades previnem ou curam dano."
+    ],
+    "exemplos": [
+      "Fenn tem 10 de vida. Se estiver com 10 de dano, torna-se ferido.",
+      "Cartas como Medkit permitem remover dano de um aliado próximo."
+    ],
+    "origem": "Learn to Play, pág. 9"
+  },
+  {
+    "tema": "ferido",
+    "descricao": "Quando um herói sofre dano igual ou maior à sua vida, ele se torna ferido, alterando seu conjunto de habilidades.",
+    "excecoes": [
+      "Cartas de habilidade podem mudar quando o herói é ferido.",
+      "Heróis feridos ainda podem realizar ações, exceto as restritas pelas cartas.",
+      "Figuras imperiais não ficam feridas — são derrotadas ao atingir o limite de dano."
+    ],
+    "exemplos": [
+      "Diala com 12 de vida recebe 12 de dano e vira sua carta de herói para o lado ferido.",
+      "Enquanto ferida, uma habilidade de Jyn não pode mais ser usada."
+    ],
+    "origem": "Learn to Play, pág. 15"
+  },
+  {
+    "tema": "condicoes",
+    "descricao": "Condições são efeitos negativos aplicados por ataques ou habilidades. Incluem Stunned, Bleeding, Focused, Weakened, etc.",
+    "excecoes": [
+      "Stunned impede o uso de ações até ser removido com 1 ação.",
+      "Bleeding causa 1 de dano se não for removida com uma ação.",
+      "Weakened reduz dano causado ou defesa, conforme especificado."
+    ],
+    "exemplos": [
+      "Um herói Stunned precisa gastar uma ação para remover a condição antes de agir.",
+      "Ao sofrer Bleeding, o herói precisa decidir entre remover ou sofrer 1 de dano ao ativar.",
+      "Focus concede um dado verde extra no próximo ataque ou teste."
+    ],
+    "origem": "Rules Reference Guide"
+  },
+  {
+    "tema": "atributos",
+    "descricao": "Cada herói possui três atributos: Insight, Strength e Tech. São usados para testes exigidos em missões e cartas.",
+    "excecoes": [
+      "Os atributos só são testados quando um efeito os exige.",
+      "Cada teste exige rolagem de um número de dados igual ao valor do atributo.",
+      "Os resultados são contados em símbolos de sucesso."
+    ],
+    "exemplos": [
+      "Para abrir uma porta trancada, Jyn faz um teste de Tech rolando 2 dados verdes.",
+      "Mak tenta decifrar um terminal com um teste de Insight (1 dado azul)."
+    ],
+    "origem": "Learn to Play, pág. 14"
+  },
+  {
+    "tema": "icones",
+    "descricao": "Os ícones nos dados representam efeitos como dano, precisão, bloqueio, evade e surges.",
+    "excecoes": [
+      "Dano causa ferimentos diretamente.",
+      "Precisão é usada apenas para ataques à distância.",
+      "Surges podem ser convertidos em efeitos especiais, como +1 dano ou efeitos de condição."
+    ],
+    "exemplos": [
+      "O dado azul rolado mostra 2 de dano e 3 de precisão — bom para ataque à distância.",
+      "Um dado branco rolado com o símbolo de evade cancela um surge do atacante."
+    ],
+    "origem": "Learn to Play, pág. 10"
+  },
+  {
+    "tema": "ativacao",
+    "descricao": "Ativar uma figura significa que ela inicia sua vez, podendo realizar até duas ações e outros efeitos livres.",
+    "excecoes": [
+      "Cada figura pode ser ativada apenas uma vez por rodada.",
+      "Heróis ativam-se em qualquer ordem definida pelos jogadores.",
+      "Figuras imperiais são ativadas em grupos, decididos pelo jogador imperial."
+    ],
+    "exemplos": [
+      "No início da rodada, os jogadores escolhem ativar Fenn. Ele move e ataca.",
+      "O jogador imperial ativa o grupo Stormtroopers e movimenta os três juntos."
+    ],
+    "origem": "Learn to Play, pág. 8"
+  },
+  {
+    "tema": "cartas_classe",
+    "descricao": "Cartas de classe são habilidades exclusivas de cada herói, adquiridas com XP entre missões e preparadas no início da missão.",
+    "excecoes": [
+      "Nem todas as cartas adquiridas são preparadas — o jogador escolhe no início da missão.",
+      "Algumas cartas têm custo em tensão para serem usadas.",
+      "Podem ter efeitos contínuos ou ativados."
+    ],
+    "exemplos": [
+      "Mak prepara 2 cartas de classe no início da missão: Sniper Shot e Covering Fire.",
+      "Diala ativa 'Force Throw' pagando 2 de tensão e empurra um inimigo."
+    ],
+    "origem": "Learn to Play, pág. 15"
+  },
+  {
+    "tema": "movimento_extra",
+    "descricao": "Figuras podem se mover além de sua velocidade normal, pagando 1 de tensão por cada espaço extra.",
+    "excecoes": [
+      "Figuras não podem se mover além da tensão máxima (resistência).",
+      "Terreno difícil pode exigir 2 pontos de movimento por espaço.",
+      "Efeitos de movimento livre não exigem tensão."
+    ],
+    "exemplos": [
+      "Fenn se move 4 espaços com velocidade 4. Para andar 1 espaço a mais, paga 1 de tensão.",
+      "Jyn usa um efeito de carta que lhe dá movimento bônus sem custo de tensão."
+    ],
+    "origem": "Learn to Play, pág. 9"
+  }
+]
