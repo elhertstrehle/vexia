@@ -1,0 +1,92 @@
+[
+  {
+    "tema": "condicoes_vitoria",
+    "descricao": "Define quando uma missão termina em sucesso ou falha, variando conforme os objetivos de cada cenário.",
+    "excecoes": [
+      "Algumas missões têm múltiplas formas de vitória.",
+      "Outras continuam até que todas as figuras de um lado sejam derrotadas.",
+      "Missões podem falhar automaticamente se um objetivo não for cumprido até certo momento."
+    ],
+    "exemplos": [
+      "A missão termina quando todos os terminais forem desativados.",
+      "Se todos os heróis forem feridos ao mesmo tempo, a missão falha."
+    ],
+    "origem": "Learn to Play",
+    "texto": "Cada missão define suas condições específicas de vitória e derrota. É fundamental ler a seção de Objetivos da missão. A vitória geralmente ocorre ao cumprir os objetivos descritos, enquanto a derrota pode vir do esgotamento do tempo, falha de proteção ou derrota de todos os heróis.",
+    "fonte_paginas": [
+      15
+    ]
+  },
+  {
+    "tema": "cartas_agenda",
+    "descricao": "Cartas adquiridas pelo jogador imperial com influência, usadas para alterar ou dificultar missões.",
+    "excecoes": [
+      "Só podem ser compradas entre missões.",
+      "Algumas exigem condições específicas para serem usadas.",
+      "Podem adicionar vilões ou eventos surpresa à missão."
+    ],
+    "exemplos": [
+      "O jogador imperial usa uma carta de Agenda para atrasar a ativação de heróis.",
+      "Uma carta agenda adiciona Darth Vader como reforço."
+    ],
+    "origem": "Learn to Play",
+    "texto": "As cartas de Agenda representam planos secretos do Império. Compradas entre missões com influência, podem modificar o cenário, introduzir vilões poderosos ou criar armadilhas inesperadas para os heróis. Elas são mantidas ocultas até serem ativadas.",
+    "fonte_paginas": [
+      20
+    ]
+  },
+  {
+    "tema": "cartas_comando",
+    "descricao": "Cartas específicas do modo Escaramuça (Skirmish), usadas para ampliar as opções táticas durante o jogo.",
+    "excecoes": [
+      "Somente usadas em partidas de Skirmish.",
+      "Cada jogador constrói seu próprio baralho antes da partida.",
+      "São compradas e usadas durante o jogo, conforme permitido."
+    ],
+    "exemplos": [
+      "Um jogador usa uma carta comando para dar +1 movimento a todas as figuras do grupo.",
+      "Outra carta anula um ataque após a rolagem dos dados."
+    ],
+    "origem": "Rules Reference",
+    "texto": "No modo Skirmish, os jogadores constroem um baralho de cartas de Comando que pode influenciar diretamente o combate e objetivos. Essas cartas trazem efeitos táticos valiosos e são essenciais para montar estratégias eficazes no competitivo.",
+    "fonte_paginas": [
+      22
+    ]
+  },
+  {
+    "tema": "missoes_forcadas",
+    "descricao": "Missões que não fazem parte da linha principal, ativadas por eventos ou cartas de trama.",
+    "excecoes": [
+      "Podem ser ativadas entre missões principais.",
+      "São obrigatórias e substituem a missão planejada no cronograma.",
+      "Algumas têm consequências permanentes na campanha."
+    ],
+    "exemplos": [
+      "O jogador imperial joga uma carta de Trama que ativa uma missão forçada.",
+      "A missão forçada oferece uma chance de resgatar um aliado perdido."
+    ],
+    "origem": "Learn to Play",
+    "texto": "Missões forçadas são ativadas geralmente por cartas de Trama do Império ou por condições narrativas. Elas desviam o curso planejado da campanha e oferecem recompensas ou penalidades únicas, influenciando diretamente o andamento da história.",
+    "fonte_paginas": [
+      18
+    ]
+  },
+  {
+    "tema": "testes_atributo",
+    "descricao": "Verificações feitas com base nos atributos do herói (Força, Conhecimento, Tecnologia).",
+    "excecoes": [
+      "Exigem rolagem de dados específicos conforme o valor do atributo.",
+      "O número de símbolos de sucesso define o resultado.",
+      "Alguns testes exigem resultados mínimos, outros acumulam sucessos ao longo do tempo."
+    ],
+    "exemplos": [
+      "Diala faz um teste de Força (2 dados verdes) para empurrar um objeto.",
+      "Mak tenta decifrar um terminal com Insight 1 (1 dado azul)."
+    ],
+    "origem": "Learn to Play",
+    "texto": "Testes de atributo representam desafios físicos, mentais ou técnicos. O jogador rola um número de dados igual ao atributo correspondente. O número de símbolos de sucesso determina o êxito da ação. São comuns em portas trancadas, terminais e eventos narrativos.",
+    "fonte_paginas": [
+      14
+    ]
+  }
+]

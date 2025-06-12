@@ -4,7 +4,7 @@ import numpy as np
 from sentence_transformers import SentenceTransformer
 
 # Carregar os blocos v8
-with open("vexia_blocos_estruturados_expandidos_v8_pt.json", "r", encoding="utf-8") as f:
+with open("vexia_blocos_estruturados_pt.json", "r", encoding="utf-8") as f:
     blocos = json.load(f)
 
 # Extrair os textos para gerar embeddings
@@ -21,9 +21,9 @@ index = faiss.IndexFlatL2(vetores.shape[1])
 index.add(np.array(vetores))
 
 # Salvar o índice e os textos
-faiss.write_index(index, "vexia_faiss_blocos_v8.index")
+faiss.write_index(index, "vexia_faiss_blocos.index")
 
-with open("vexia_frases_blocos_v8.json", "w", encoding="utf-8") as f:
+with open("vexia_frases_blocos.json", "w", encoding="utf-8") as f:
     json.dump(textos, f, indent=2, ensure_ascii=False)
 
 print("✅ Arquivos gerados com sucesso!")
