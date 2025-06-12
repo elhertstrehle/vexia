@@ -42,6 +42,26 @@ vexia/
 
 ## Componentes e Etapas Concluídas
 
+### ✅ Blocos Temáticos Atualizados
+
+* Criação de 12 novos blocos temáticos ausentes (ex: condições de vitória, cartas de agenda, testes de atributo, portas, etc.)
+* Reforço de 10 blocos já existentes com marcações para futura expansão
+* Geração do arquivo unificado `vexia_blocos_estruturados_pt.json` com todos os blocos consolidados
+
+### ✅ Atualização do Roteador e Precisão de Respostas
+
+* Criação do novo script `vexia_groq.py` com:
+  - Comentário interno de versão (v13)
+  - Roteador de palavras-chave expandido (ex: “descanso”, “ação de descanso”)
+  - Vetorização semântica aprimorada: usa tema + descrição + texto completo
+* Resultados muito mais coerentes e precisos nas respostas em testes
+
+### ✅ Padronização de Nomes
+
+* Nome fixo para arquivos principais: `vexia_blocos_estruturados_pt.json`, facilitando scripts e automações
+* Arquivo `gerar_index_v8.py` mantido compatível com esse padrão
+## Componentes e Etapas Concluídas
+
 ### ✅ Regras e Fontes Oficiais
 
 * Upload dos manuais oficiais em PDF:
