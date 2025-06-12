@@ -1,1 +1,1 @@
-streamlit run app/vexia_groq_v12.py
+streamlit run app/vexia_groq.py
