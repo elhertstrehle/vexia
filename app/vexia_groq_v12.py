@@ -16,18 +16,18 @@ st.title("🤖 VexIA - Mestre de RPG para Star Wars: Imperial Assault")
 pergunta = st.text_input("Faça uma pergunta sobre o jogo:", "")
 
 # Carregar blocos
-with open("vexia_blocos_estruturados_expandidos_v5_pt.json", "r", encoding="utf-8") as f:
+with open("data/vexia_blocos_estruturados_expandidos_v8_pt.json", "r", encoding="utf-8") as f:
     blocos = json.load(f)
 
-with open("vexia_blocos_ingles_base.json", "r", encoding="utf-8") as f:
+with open("data/vexia_blocos_ingles_base.json", "r", encoding="utf-8") as f:
     blocos_en = json.load(f)
 
-with open("vexia_frases_ltp_boas.json", "r", encoding="utf-8") as f:
+with open("data/vexia_frases_ltp_boas.json", "r", encoding="utf-8") as f:
     frases_ltp = json.load(f)
 
 # Carregar FAISS manualmente
 import faiss
-index = faiss.read_index("vexia_faiss_blocos_v7.index")
+index = faiss.read_index("data/vexia_faiss_blocos_v8.index")
 
 modelo = SentenceTransformer("all-MiniLM-L6-v2")
 
